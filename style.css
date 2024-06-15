@@ -1,0 +1,130 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+    overflow: hidden;
+}
+.custom-header {
+    background-color: white !important;
+    color: rgb(7, 7, 7);
+    text-align: center;
+    padding: 0.2em;
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    width: 200px;
+    margin-right: auto;
+    margin-left: auto; 
+}
+
+.navbar-toggler-icon {
+    background-color: #fc1111 !important; /* Darker red for the collapsed button */
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: rgb(14, 13, 13) !important; /* Text color for the navigation links in the expanded navbar */
+}
+
+nav {
+    background-color: #0e0d0d; /* Darker red for navigation */
+    padding: 0.2em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 1em;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+    font-weight: bold;
+}
+
+section {
+    padding: 2em;
+}
+
+#home {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('Images/worker-on-construction-site.jpg') center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 5em;
+    height: 100vh;
+    display: flex; /* Make the section a flex container */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+}
+
+
+
+.text-center {
+    text-align: center;
+}
+/* Add this to your existing styles.css file */
+
+/* Service Categories */
+.service-categories {
+    display: flex;
+    justify-content:space-between ;
+    flex-wrap: wrap;
+}
+
+.service-category {
+    flex-basis: calc(45% - 0.2em);
+    margin-bottom: 1em;
+}
+
+.service-category h3 {
+    margin-bottom: 0.5em;
+    color: #050505; /* Adjust the color as needed */
+}
+
+/* Vision and Mission Section */
+#vision-mission {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 2em;
+}
+
+.vision,
+.mission {
+    flex-basis: calc(50% - 1em);
+    padding: 1em;
+    border: 1px solid #ccc; /* Add a border for better separation */
+}
+
+.vision h3,
+.mission h3 {
+    color: #fc0808; /* Adjust the color as needed */
+}
+
+/* Contact Section */
+#contact {
+    margin-top: 2em;
+}
+
+#contact i {
+    margin-left: 0.5em;
+    color: #fc0808; /* Adjust the color as needed */
+}
+
+footer {
+    background-color: #ff0505; 
+    color: white;
+    text-align: center;
+    padding: 0.5em;
+}
